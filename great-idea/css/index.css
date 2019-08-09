@@ -64,3 +64,174 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+#page {
+	max-width: 2500px;
+}
+
+#pagePadding {
+	margin: auto;
+	width: 90%;
+}
+
+p {
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+ul {
+	list-style-type: square;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+li {
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	color: grey;
+	height: 100px;
+	width: 100%;
+}
+
+nav * {/*To keep them from squashing together too close on smaller screens*/
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#headerMargin {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.rowDisplay {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.sectionSizeHalf {
+	width: 50%;
+	min-width: 300px;/*anything less than this and flexbox will put it on a new line instead of them sitting next to eachother*/
+}
+
+.boxSizeHalf {
+	width: 43%;/*less than sectionHalfSize*/
+	min-width: 150px;
+}
+
+.sectionSizeThird {
+	width: 33%;
+	min-width: 200px;
+}
+
+.big {
+	font-size: 85px;
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+.button :first-child {
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid;
+	border-color: black;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 30px;
+	color: black;
+}
+
+.fancyButton {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 10px;
+}
+
+.fancyButton :first-child {
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid;
+	border-color: black;
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 30px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	color: black;
+}
+
+.fancyBox {
+	border: 1px solid;
+	border-color: black;
+	background-color: lightgray;
+	padding: 30px;
+	margin-bottom: 60px;
+}
+
+.sectionTitle {
+	text-align: left;
+	padding: 10px;
+	padding-left: 0px;
+	font-size: 20px;
+}
+
+.sectionPadding {
+	padding: 20px;
+}
+
+.boxPadding {
+	padding: 22px;
+}
+
+.fullWidthImage {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 100%;
+	height: auto;
+}
+
+.lineBreak {
+	width: 100%;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+address {
+	padding: 40px;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px; 
+}
+
+.copyright{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	display: block; 
+	text-align: center;
+}
